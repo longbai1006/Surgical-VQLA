@@ -64,7 +64,7 @@ In this project, we implement our method using the Pytorch library, the structur
     - VQLA
 2. EndoVis-17-VLQA
     - Images
-    - VQLA
+    - VQLA  
 **Will release dataset after acceptance.**
 ---
 
