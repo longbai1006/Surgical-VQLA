@@ -58,7 +58,7 @@ In this project, we implement our method using the Pytorch library, the structur
 - utils.py
 
 ---
-## Dataset
+## Dataset (Will release dataset after acceptance)
 1. EndoVis-18-VQA
     - Images
     - VQLA
@@ -66,7 +66,6 @@ In this project, we implement our method using the Pytorch library, the structur
     - Images
     - VQLA  
 
-**Will release dataset after acceptance.**
 ---
 
 ### Run training
