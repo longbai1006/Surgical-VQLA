@@ -77,7 +77,7 @@ In this project, we implement our method using the Pytorch library, the structur
 ## Evaluation
 - Evaluate both on EndoVis-18-VLQA & EndoVis-17-VLQA
     ```bash
-    python train.py --validate True --checkpoint_dir /CHECKPOINT_PATH/ --transformer_ver lvit --batch_size 64 --epochs 80
+    python train.py --validate True --checkpoint_dir /CHECKPOINT_PATH/ --transformer_ver lvit --batch_size 64
     ```
 
 ---
