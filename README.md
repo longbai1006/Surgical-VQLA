@@ -47,8 +47,9 @@ In this project, we implement our method using the Pytorch library, the structur
                     - `5x5`: img_features extracted with a patch size of 5x5
         - `....`
         - `seq_16`
-    - `featre_extraction/feature_extraction_EndoVis18-VQA-frcnn.py`: Used to extract features with Fast-RCNN and ResNet101.
-    - `featre_extraction/feature_extraction_EndoVis18-VQA-resnet`: Used to extract features with ResNet18 (based on patch size).
+    - `featre_extraction/`:
+        - `feature_extraction_EndoVis18-VQA-frcnn.py`: Used to extract features with Fast-RCNN and ResNet101.
+        - `feature_extraction_EndoVis18-VQA-resnet`: Used to extract features with ResNet18 (based on patch size).
 - `models/`: 
     - VisualBertResMLP.py : Our proposed encoder.
     - visualBertClassification.py : VisualBert encoder-based classification model.
