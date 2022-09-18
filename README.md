@@ -86,7 +86,7 @@ In this project, we implement our method using the Pytorch library, the structur
 ## References
 Code adopted and modified from:
 1. VisualBERT model
-    - Paper [VISUALBERT: A SIMPLE AND PERFORMANT BASELINE FOR VISION AND LANGUAGE](https://arxiv.org/pdf/1908.03557.pdf).
+    - Paper [VisualBERT: A Simple and Performant Baseline for Vision and Language](https://arxiv.org/abs/1908.03557).
     - official pytorch implementation [Code](https://github.com/huggingface/transformers.git).
 
 2. VisualBERT ResMLP model
