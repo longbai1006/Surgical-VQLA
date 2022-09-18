@@ -58,7 +58,7 @@ In this project, we implement our method using the Pytorch library, the structur
 - utils.py
 
 ---
-## Dataset (Will release dataset after acceptance)
+## Dataset (will release dataset after acceptance)
 1. EndoVis-18-VQA
     - Images
     - VQLA
