@@ -59,12 +59,13 @@ In this project, we implement our method using the Pytorch library, the structur
 
 ---
 ## Dataset
-1. EndoVis-18-VQA **[[`EndoVis-18-VQLA annotation`](https://drive.google.com/drive/folders/1hu_yK27Xz2_lvjjZ97-WF2MK_JO14MWI?usp=sharing)]**
+1. EndoVis-18-VQA
     - Images
     - VQLA
-2. EndoVis-17-VLQA **[[`EndoVis-18-VQLA annotation`](https://drive.google.com/drive/folders/1hu_yK27Xz2_lvjjZ97-WF2MK_JO14MWI?usp=sharing)]**
+2. EndoVis-17-VLQA
     - Images
     - VQLA
+**Will release dataset after acceptance.**
 ---
 
 ### Run training
