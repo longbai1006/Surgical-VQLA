@@ -209,9 +209,9 @@ if __name__ == '__main__':
     parser.add_argument('--checkpoint',     default=None,                                           help='path to checkpoint, None if none.')
     
     parser.add_argument('--lr',             type=float, default=0.00001,                            help='0.000005, 0.00001, 0.000005')
-    parser.add_argument('--checkpoint_dir', default= 'checkpoints/vb/',                             help='/vb/vbrm/lvit/') 
+    parser.add_argument('--checkpoint_dir', default= 'checkpoints/lvit/',                           help='/vb/vbrm/lvit/') 
     parser.add_argument('--dataset_type',   default= 'endovis',                                     help='endovis')
-    parser.add_argument('--transformer_ver',default= 'vbrm',                                        help='vb/vbrm/lvit')
+    parser.add_argument('--transformer_ver',default= 'lvit',                                        help='vb/vbrm/lvit')
     parser.add_argument('--patch_size',     default= 5,                                             help='1/2/3/4/5')
     parser.add_argument('--question_len',   default= 25,                                            help='25')
     parser.add_argument('--num_class',      default= 2,                                             help='25')
