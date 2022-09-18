@@ -4,7 +4,7 @@
 
 <samp>
 
-<h2> Surgical-VQA: Visual Question Answering in Surgical Scenes using Transformer </h1>
+<h2> Surgical-VQLA: Transformer with Gated Vision-Language Embedding for Visual Question Localized-Answering in Robotic Surgery </h1>
 
 <h4> Long Bai*, Mobarakol Islam*, Lalithkumar Seenivasan and Hongliang Ren </h3>
 
