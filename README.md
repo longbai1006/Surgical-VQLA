@@ -40,7 +40,7 @@ In this project, we implement our method using the Pytorch library, the structur
         - `v2` : bert tokernizer
     - `EndoVis-18-VQA/` : seq_{1,2,3,4,5,6,7,9,10,11,12,14,15,16}. Each sequence folder follows the same folder structure. 
         - `seq_1`: 
-            - `left_frames`: Image frames (left_frames) for each sequence can be downloaded from  EndoVIS18 challange.
+            - `left_frames`: Image frames (left_frames) for each sequence can be downloaded from EndoVIS18 challange.
             - `vqla`
                 - `label`: Q&A pairs and bounding box label.
                 - `img_features`: Contains img_features extracted from each frame with different patch size.
@@ -48,7 +48,7 @@ In this project, we implement our method using the Pytorch library, the structur
                     - `frcnn`: img_features extracted by Fast-RCNN and ResNet101.
         - `....`
         - `seq_16`
-    - `EndoVis-18-VQA/` : selected 97 frames for external validation. 
+    - `EndoVis-17-VQA/` : selected 97 frames from EndoVIS17 challange for external validation. 
         - `left_frames`
         - `vqla`
             - `label`: Q&A pairs and bounding box label.
