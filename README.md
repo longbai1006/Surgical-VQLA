@@ -42,17 +42,19 @@ In this project, we implement our method using the Pytorch library, the structur
         - `seq_1`: 
             - `left_frames`: Image frames (left_frames) for each sequence can be downloaded from  EndoVIS18 challange.
             - `vqla`
-                - `label`: Classification Q&A pairs.
+                - `label`: Q&A pairs and bounding box label.
                 - `img_features`: Contains img_features extracted from each frame with different patch size.
-                    - `5x5`: img_features extracted with a patch size of 5x5
+                    - `5x5`: img_features extracted with a patch size of 5x5 by ResNet18.
+                    - `frcnn`: img_features extracted by Fast-RCNN and ResNet101.
         - `....`
         - `seq_16`
     - `EndoVis-18-VQA/` : selected 97 frames for external validation. 
-        - `left_frames`: Image frames (left_frames) for each sequence can be downloaded from  EndoVIS18 challange.
+        - `left_frames`
         - `vqla`
-            - `label`: Classification Q&A pairs.
+            - `label`: Q&A pairs and bounding box label.
             - `img_features`: Contains img_features extracted from each frame with different patch size.
-                - `5x5`: img_features extracted with a patch size of 5x5
+                - `5x5`: img_features extracted with a patch size of 5x5 by ResNet18.
+                - `frcnn`: img_features extracted by Fast-RCNN and ResNet101.
     - `featre_extraction/`:
         - `feature_extraction_EndoVis18-VQA-frcnn.py`: Used to extract features with Fast-RCNN and ResNet101.
         - `feature_extraction_EndoVis18-VQA-resnet`: Used to extract features with ResNet18 (based on patch size).
