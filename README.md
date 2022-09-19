@@ -59,9 +59,11 @@ In this project, we implement our method using the Pytorch library, the structur
         - `feature_extraction_EndoVis18-VQA-frcnn.py`: Used to extract features with Fast-RCNN and ResNet101.
         - `feature_extraction_EndoVis18-VQA-resnet`: Used to extract features with ResNet18 (based on patch size).
 - `models/`: 
-    - VisualBertResMLP.py : Our proposed encoder.
-    - visualBertClassification.py : VisualBert encoder-based classification model.
-    - VisualBertResMLPClassification.py : VisualBert ResMLP encoder-based classification model.
+    - GatedLanguageVisualEmbedding.py : GLVE module for visual and word embeddings and fusion.
+    - LViTPrediction.py : our proposed LViT model for VQLA task.
+    - VisualBertResMLP.py : VisualBERT ResMLP encoder from Surgical-VQA.
+    - visualBertPrediction.py : VisualBert encoder-based model for VQLA task.
+    - VisualBertResMLPPrediction.py : VisualBert ResMLP encoder-based model for VQLA task.
 - dataloader.py
 - train.py
 - utils.py
