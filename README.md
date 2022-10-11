@@ -71,7 +71,7 @@ In this project, we implement our method using the Pytorch library, the structur
 ---
 ## Dataset (will release after acceptance)
 1. EndoVis-18-VQA
-    - Images
+    - Images (Images can be download directly from EndoVis18 Website, we cannot release the data in our repository)
     - VQLA
 2. EndoVis-17-VLQA
     - Images
