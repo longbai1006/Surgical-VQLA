@@ -5,7 +5,7 @@ Paper           : Surgical-VQLA: Transformer with Gated Vision-Language Embeddin
 Author          : Long Bai, Mobarakol Islam, Lalithkumar Seenivasan, Hongliang Ren
 Lab             : Medical Mechatronics Lab, The Chinese University of Hong Kong
 Acknowledgement : Code adopted from the official implementation of VisualBERT ResMLP model from 
-                  Surgical VQLA (https://github.com/lalithjets/Surgical_VQA) and timm/models 
+                  Surgical VQA (https://github.com/lalithjets/Surgical_VQA) and timm/models 
                   (https://github.com/rwightman/pytorch-image-models/tree/master/timm/models).
 '''
 
