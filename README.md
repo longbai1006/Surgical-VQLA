@@ -49,7 +49,7 @@ In this project, we implement our method using the Pytorch library, the structur
 - `dataset/`
     - `bertvocab/`
         - `v2` : bert tokernizer
-    - `EndoVis-18-VQA/` : seq_{1,2,3,4,5,6,7,9,10,11,12,14,15,16}. Each sequence folder follows the same folder structure. 
+    - `EndoVis-18-VQLA/` : seq_{1,2,3,4,5,6,7,9,10,11,12,14,15,16}. Each sequence folder follows the same folder structure. 
         - `seq_1`: 
             - `left_frames`: Image frames (left_frames) for each sequence can be downloaded from EndoVIS18 challange.
             - `vqla`
@@ -59,7 +59,7 @@ In this project, we implement our method using the Pytorch library, the structur
                     - `frcnn`: img_features extracted by Fast-RCNN and ResNet101.
         - `....`
         - `seq_16`
-    - `EndoVis-17-VQA/` : selected 97 frames from EndoVIS17 challange for external validation. 
+    - `EndoVis-17-VQLA/` : selected 97 frames from EndoVIS17 challange for external validation. 
         - `left_frames`
         - `vqla`
             - `label`: Q&A pairs and bounding box label.
@@ -67,8 +67,8 @@ In this project, we implement our method using the Pytorch library, the structur
                 - `5x5`: img_features extracted with a patch size of 5x5 by ResNet18.
                 - `frcnn`: img_features extracted by Fast-RCNN and ResNet101.
     - `featre_extraction/`:
-        - `feature_extraction_EndoVis18-VQA-frcnn.py`: Used to extract features with Fast-RCNN and ResNet101.
-        - `feature_extraction_EndoVis18-VQA-resnet`: Used to extract features with ResNet18 (based on patch size).
+        - `feature_extraction_EndoVis18-VQLA-frcnn.py`: Used to extract features with Fast-RCNN and ResNet101.
+        - `feature_extraction_EndoVis18-VQLA-resnet`: Used to extract features with ResNet18 (based on patch size).
 - `models/`: 
     - GatedLanguageVisualEmbedding.py : GLVE module for visual and word embeddings and fusion.
     - LViTPrediction.py : our proposed LViT model for VQLA task.
