@@ -20,7 +20,7 @@ If you find our code or paper useful, please cite as
 @inproceedings{bai2023surgical,
   title={Surgical-vqla: transformer with gated vision-language embedding for visual question localized-answering in robotic surgery},
   author={Bai, Long and Islam, Mobarakol and Seenivasan, Lalithkumar and Ren, Hongliang},
-  booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)},
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
   year={2023},
   organization={IEEE}
 }
