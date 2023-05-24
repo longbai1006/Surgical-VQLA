@@ -17,12 +17,11 @@
 If you find our code or paper useful, please cite as
 
 ```bibtex
-@inproceedings{bai2023surgical,
+@article{bai2023surgical,
   title={Surgical-VQLA: Transformer with Gated Vision-Language Embedding for Visual Question Localized-Answering in Robotic Surgery},
   author={Bai, Long and Islam, Mobarakol and Seenivasan, Lalithkumar and Ren, Hongliang},
-  booktitle={2023 International Conference on Robotics and Automation (ICRA)},
+  journal={arXiv preprint arXiv:2305.11692},
   year={2023},
-  organization={IEEE}
 }
 ```
 
@@ -88,9 +87,9 @@ In this project, we implement our method using the Pytorch library, the structur
 ---
 ## Dataset
 1. EndoVis-18-VQA (Image frames can be downloaded directly from EndoVis Challenge Website)
-    - [VQLA](https://drive.google.com/file/d/1FUz3RmnFpuAW9QC3eNTrRvZ-82wuAGoh/view?usp=sharing)
+    - [VQLA](https://drive.google.com/file/d/1m7CSNY9PcUoCAUO_DoppDCi_l2L2RiFN/view?usp=sharing)
 2. EndoVis-17-VLQA (External Validation Set)
-    - [Images & VQLA](https://drive.google.com/file/d/18r8qECBsGDVkj1mDu89YN1LZT8rHYefE/view?usp=sharing)  
+    - [Images & VQLA](https://drive.google.com/file/d/1PQ-SDxwiNXs5nmV7PuBgBUlfaRRQaQAU/view?usp=sharing)  
 
 ---
 
