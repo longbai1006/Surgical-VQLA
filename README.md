@@ -86,13 +86,11 @@ In this project, we implement our method using the Pytorch library, the structur
 - utils.py
 
 ---
-## Dataset (will release after acceptance)
-1. EndoVis-18-VQA
-    - Images (Images can be downloaded directly from EndoVis Challenge Website, we cannot release the data in our repository)
-    - VQLA
-2. EndoVis-17-VLQA
-    - Images
-    - VQLA  
+## Dataset
+1. EndoVis-18-VQA (Image frames can be downloaded directly from EndoVis Challenge Website)
+    - [VQLA](https://drive.google.com/file/d/1FUz3RmnFpuAW9QC3eNTrRvZ-82wuAGoh/view?usp=sharing)
+2. EndoVis-17-VLQA (External Validation Set)
+    - [Images & VQLA](https://drive.google.com/file/d/18r8qECBsGDVkj1mDu89YN1LZT8rHYefE/view?usp=sharing)  
 
 ---
 
