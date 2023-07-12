@@ -6,7 +6,7 @@
 
 <h2> Surgical-VQLA: Transformer with Gated Vision-Language Embedding for Visual Question Localized-Answering in Robotic Surgery </h1>
 
-<h4> Long Bai*, Mobarakol Islam*, Lalithkumar Seenivasan and Hongliang Ren </h3>
+<h4> Long Bai*, Mobarakol Islam*, Lalithkumar Seenivasan, and Hongliang Ren </h3>
 
 </samp>   
 
@@ -17,12 +17,13 @@
 If you find our code or paper useful, please cite as
 
 ```bibtex
-@article{bai2023surgical,
-  title={Surgical-VQLA: Transformer with Gated Vision-Language Embedding for Visual Question Localized-Answering in Robotic Surgery},
+@INPROCEEDINGS{bai2023surgical,
   author={Bai, Long and Islam, Mobarakol and Seenivasan, Lalithkumar and Ren, Hongliang},
-  journal={arXiv preprint arXiv:2305.11692},
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={Surgical-VQLA:Transformer with Gated Vision-Language Embedding for Visual Question Localized-Answering in Robotic Surgery}, 
   year={2023},
-}
+  pages={6859-6865},
+  doi={10.1109/ICRA48891.2023.10160403}}
 ```
 
 ---
