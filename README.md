@@ -11,7 +11,7 @@
 </samp>   
 
 ---
-| **[[```arXiv```](<https://arxiv.org/abs/2305.11692>)]** | **[[```Paper```](<(https://ieeexplore.ieee.org/iel7/10160211/10160212/10160403.pdf)>)]** |
+| **[[```arXiv```](<https://arxiv.org/abs/2305.11692>)]** | **[[```Paper```](<https://ieeexplore.ieee.org/iel7/10160211/10160212/10160403.pdf>)]** |
 |:-------------------:|:-------------------:|
     
 IEEE International Conference on Robotics and Automation (ICRA) 2023
