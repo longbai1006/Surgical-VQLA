@@ -54,6 +54,7 @@ Despite the availability of computer-aided simulators and recorded videos of sur
 - h5py
 
 ## Directory Setup
+
 <!---------------------------------------------------------------------------------------------------------------->
 In this project, we implement our method using the Pytorch library, the structure is as follows: 
 
@@ -92,7 +93,9 @@ In this project, we implement our method using the Pytorch library, the structur
 - utils.py
 
 ---
+
 ## Dataset
+
 1. EndoVis-18-VQA (Image frames can be downloaded directly from EndoVis Challenge Website)
     - [VQLA](https://drive.google.com/file/d/1m7CSNY9PcUoCAUO_DoppDCi_l2L2RiFN/view?usp=sharing)
 2. EndoVis-17-VLQA (External Validation Set)
@@ -101,20 +104,25 @@ In this project, we implement our method using the Pytorch library, the structur
 ---
 
 ### Run training
+
 - Train on EndoVis-18-VLQA 
     ```bash
     python train.py --checkpoint_dir /CHECKPOINT_PATH/ --transformer_ver lvit --batch_size 64 --epochs 80
     ```
 
 ---
+
 ## Evaluation
+
 - Evaluate on both EndoVis-18-VLQA & EndoVis-17-VLQA
     ```bash
     python train.py --validate True --checkpoint_dir /CHECKPOINT_PATH/ --transformer_ver lvit --batch_size 64
     ```
 
 ---
+
 ## References
+
 Code adopted and modified from:
 1. VisualBERT model
     - Paper [VisualBERT: A Simple and Performant Baseline for Vision and Language](https://arxiv.org/abs/1908.03557).
@@ -131,6 +139,7 @@ Code adopted and modified from:
 ---
 
 ## Contact
+
 For any queries, please raise an issue or contact [Long Bai](mailto:b.long@link.cuhk.edu.hk).
 
 ---
