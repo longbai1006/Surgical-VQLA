@@ -8,7 +8,7 @@
 
 <h4> Long Bai*, Mobarakol Islam*, Lalithkumar Seenivasan, and Hongliang Ren </h3>
 
-<h2> IEEE International Conference on Robotics and Automation (ICRA) 2023 </h1>
+<h3> IEEE International Conference on Robotics and Automation (ICRA) 2023 </h2>
 
 </samp>   
 
