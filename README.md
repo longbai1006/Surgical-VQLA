@@ -6,7 +6,7 @@
 
 <h2> Surgical-VQLA: Transformer with Gated Vision-Language Embedding for Visual Question Localized-Answering in Robotic Surgery </h1>
 
-<h4> Long Bai*, Mobarakol Islam*, Lalithkumar Seenivasan, and Hongliang Ren </h3>
+<h4> Long Bai*, Mobarakol Islam*, Lalithkumar Seenivasan, Hongliang Ren </h3>
 
 <h3> IEEE International Conference on Robotics and Automation (ICRA) 2023 </h2>
 
@@ -14,12 +14,10 @@
 
 | **[[```arXiv```](<https://arxiv.org/abs/2305.11692>)]** | **[[```Paper```](<https://ieeexplore.ieee.org/iel7/10160211/10160212/10160403.pdf>)]** |
 |:-------------------:|:-------------------:|
-    
+
 ---
 
 </div>     
-
-
 
 If you find our code, paper, or dataset useful, please cite the paper as
 
@@ -33,8 +31,8 @@ If you find our code, paper, or dataset useful, please cite the paper as
   organization={IEEE}
 }
 ```
-
 ---
+
 ## Abstract
 Despite the availability of computer-aided simulators and recorded videos of surgical procedures, junior residents still heavily rely on experts to answer their queries. However, expert surgeons are often overloaded with clinical and academic workloads and limit their time in answering. For this purpose, we develop a surgical question-answering system to facilitate robot-assisted surgical scene and activity understanding from recorded videos. Most of the existing visual question answering (VQA) methods require an object detector and regions based feature extractor to extract visual features and fuse them with the embedded text of the question for answer generation. However, (i) surgical object detection model is scarce due to smaller datasets and lack of bounding box annotation; (ii) current fusion strategy of heterogeneous modalities like text and image is naive; (iii) the localized answering is missing, which is crucial in complex surgical scenarios. In this paper, we propose Visual Question Localized-Answering in Robotic Surgery (Surgical-VQLA) to localize the specific surgical area during the answer prediction. To deal with the fusion of the heterogeneous modalities, we design gated vision-language embedding (GVLE) to build input patches for the Language Vision Transformer (LViT) to predict the answer. To get localization, we add the detection head in parallel with the prediction head of the LViT. We also integrate generalized intersection over union (GIoU) loss to boost localization performance by preserving the accuracy of the question-answering model. We annotate two datasets of VQLA by utilizing publicly available surgical videos from EndoVis-17 and 18 of the MICCAI challenges. Our validation results suggest that Surgical-VQLA can better understand the surgical scene and localized the specific area related to the question-answering. GVLE presents an efficient language-vision embedding technique by showing superior performance over the existing benchmarks.  
 
