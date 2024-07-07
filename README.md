@@ -24,13 +24,14 @@
 If you find our code or paper useful, please cite as
 
 ```bibtex
-@INPROCEEDINGS{bai2023surgical,
+@inproceedings{bai2023surgical,
+  title={Surgical-VQLA: Transformer with Gated Vision-Language Embedding for Visual Question Localized-Answering in Robotic Surgery},
   author={Bai, Long and Islam, Mobarakol and Seenivasan, Lalithkumar and Ren, Hongliang},
-  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)}, 
-  title={Surgical-VQLA:Transformer with Gated Vision-Language Embedding for Visual Question Localized-Answering in Robotic Surgery}, 
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={6859--6865},
   year={2023},
-  pages={6859-6865},
-  doi={10.1109/ICRA48891.2023.10160403}}
+  organization={IEEE}
+}
 ```
 
 ---
