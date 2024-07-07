@@ -40,8 +40,8 @@ Despite the availability of computer-aided simulators and recorded videos of sur
 <img src="figures/svqla.png" alt="SurgicalVLQA" width="1000"/>
 </p>
 
-
 ---
+
 ## Environment
 
 - PyTorch
